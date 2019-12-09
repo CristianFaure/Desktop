@@ -1,0 +1,68 @@
+﻿<Window x:Class="CareAmarillo.Page7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CareAmarillo"
+        mc:Ignorable="d"
+        Title="Page7" Height="980" Width="1700">
+    <Grid Margin="8,10,-8,-10">
+        <TextBox Name="txtSearch" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Search..." VerticalAlignment="Top" Width="664" Margin="10,10,0,0"/>
+        <Button Name="btnSubmit" Content="Search!" HorizontalAlignment="Left" Margin="679,0,0,916" VerticalAlignment="Bottom" Width="103" Click="Button_Click" Height="23"/>
+        <Label Name="lblShelters" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="772" Height="721"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="216" Margin="679,38,0,0" VerticalAlignment="Top" Width="284" Source="Capture.JPG"/>
+        <Label x:Name="lblCAp2" HorizontalAlignment="Left" Margin="679,259,0,0" VerticalAlignment="Top" FontSize="45">
+            <Button x:Name="Change_Password" Content="Button" VerticalAlignment="Top" FontFamily="Times New Roman" RenderTransformOrigin="0.669,0.061" HorizontalAlignment="Left" Width="377" Height="127" Click="Change_Password_Click" TextInput="Change">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="178.56"/>
+                        <TranslateTransform X="-132.936" Y="1.671"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Label>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="278,370,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="108" Width="278"/>
+        <Button x:Name="Change_Password_Copy" Content="Button" VerticalAlignment="Top" FontFamily="Times New Roman" RenderTransformOrigin="0.669,0.061" HorizontalAlignment="Left" Width="377" Height="127" Click="Change_Password_Click" TextInput="Change" Margin="698,416,0,0">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="178.56"/>
+                    <TranslateTransform X="-132.936" Y="1.671"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="Change_Password_Copy1" Content="Button" VerticalAlignment="Top" FontFamily="Times New Roman" RenderTransformOrigin="0.669,0.061" HorizontalAlignment="Left" Width="377" Height="127" Click="Change_Password_Click" TextInput="Change" Margin="698,563,0,0">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="178.56"/>
+                    <TranslateTransform X="-132.936" Y="1.671"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="Change_Password_Copy2" Content="Button" VerticalAlignment="Top" FontFamily="Times New Roman" RenderTransformOrigin="0.669,0.061" HorizontalAlignment="Left" Width="377" Height="127" Click="Change_Password_Click" TextInput="Change" Margin="710,723,0,0">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="178.56"/>
+                    <TranslateTransform X="-132.936" Y="1.671"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="Change_Password_Copy3" Content="Button" VerticalAlignment="Top" FontFamily="Times New Roman" RenderTransformOrigin="0.669,0.061" HorizontalAlignment="Left" Width="377" Height="127" Click="Change_Password_Click" TextInput="Change" Margin="1224,276,0,0">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="178.56"/>
+                    <TranslateTransform X="-132.936" Y="1.671"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>
